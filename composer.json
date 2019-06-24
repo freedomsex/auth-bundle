@@ -6,16 +6,11 @@
         "php": "^7.1.3",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "symfony/console": "4.3.*",
-        "symfony/dotenv": "4.3.*",
         "symfony/flex": "^1.1",
-        "symfony/framework-bundle": "4.3.*",
-        "symfony/yaml": "4.3.*"
+        "symfony/framework-bundle": "^4.0.*",
+        "symfony/yaml": "^4.0.*"
     },
     "config": {
-        "preferred-install": {
-            "*": "dist"
-        },
         "sort-packages": true
     },
     "autoload": {
@@ -28,21 +23,4 @@
             "FreedomSex\\AuthBundle\\": "tests/"
         }
     },
-    "replace": {
-        "paragonie/random_compat": "2.*",
-        "symfony/polyfill-ctype": "*",
-        "symfony/polyfill-iconv": "*",
-        "symfony/polyfill-php71": "*",
-        "symfony/polyfill-php70": "*",
-        "symfony/polyfill-php56": "*"
-    },
-    "conflict": {
-        "symfony/symfony": "*"
-    },
-    "extra": {
-        "symfony": {
-            "allow-contrib": false,
-            "require": "4.3.*"
-        }
-    }
 }
