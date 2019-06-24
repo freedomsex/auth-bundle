@@ -1,4 +1,7 @@
 {
+    "firebase/php-jwt": {
+        "version": "v5.0.0"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
@@ -90,6 +93,9 @@
     },
     "symfony/mime": {
         "version": "v4.3.1"
+    },
+    "symfony/polyfill-ctype": {
+        "version": "v1.11.0"
     },
     "symfony/polyfill-intl-idn": {
         "version": "v1.11.0"
