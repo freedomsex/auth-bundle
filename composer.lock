@@ -58,7 +58,7 @@
             "source": {
                 "type": "git",
                 "url": "git@195.154.54.5:freed/libs/jwt-manager",
-                "reference": "46a9f1bc4ce5061b0f24a90c4aac5580b7025c75"
+                "reference": "40f5391f4d88127abb3f56d9a9d8fb6993091055"
             },
             "require": {
                 "firebase/php-jwt": "^5.0",
@@ -80,7 +80,7 @@
                 }
             ],
             "description": "jwt-manager for freedomsex projects",
-            "time": "2019-06-24T22:15:36+00:00"
+            "time": "2019-06-24T22:27:42+00:00"
         }
     ],
     "packages-dev": [],
