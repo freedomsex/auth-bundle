@@ -7,8 +7,8 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "symfony/flex": "^1.1",
-        "symfony/framework-bundle": "^4.0.*",
-        "symfony/yaml": "^4.0.*"
+        "symfony/framework-bundle": "^4.0",
+        "symfony/yaml": "^4.0"
     },
     "config": {
         "sort-packages": true
