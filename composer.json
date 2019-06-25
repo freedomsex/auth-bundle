@@ -24,6 +24,8 @@
         }
     },
     "require-dev": {
-        "damianopetrungaro/php-commitizen": "^0.1.2"
+        "damianopetrungaro/php-commitizen": "^0.1.2",
+        "symfony/framework-bundle": "^4.3",
+        "symfony/dotenv": "^4.3"
     }
 }

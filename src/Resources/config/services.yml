@@ -1,5 +1,6 @@
 services:
 
   FreedomSex\Services\JWTManager:
+    public: true
     arguments:
       $projectDir: '%kernel.project_dir%'
