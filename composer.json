@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^7.1.3",
-        "freedomsex/jwt-manager": "^0.0.2"
+        "freedomsex/jwt-manager": "~0.0.2"
     },
     "autoload": {
         "psr-4": {
