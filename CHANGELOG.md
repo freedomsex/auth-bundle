@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://git///compare/v0.0.6...v0.0.7) (2019-06-25)
+
+
+### Bug Fixes
+
+* public ([5c978eb](https://git///commit/5c978eb))
+
+
+
 ### [0.0.6](https://git///compare/v0.0.5...v0.0.6) (2019-06-25)
 
 
