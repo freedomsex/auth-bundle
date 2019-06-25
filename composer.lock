@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ecf798f0c58edeaf5f55ad3e59aa460b",
+    "content-hash": "18db48a15eb552eadd4bb17ef1ef1ed1",
     "packages": [
         {
             "name": "firebase/php-jwt",
@@ -54,11 +54,11 @@
         },
         {
             "name": "freedomsex/jwt-manager",
-            "version": "0.0.4",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "git@195.154.54.5:freed/libs/jwt-manager",
-                "reference": "a876395a42c1ef805e8d850e9a7a99268d45c7ef"
+                "reference": "0f4b8cce0542badc0b9fac48c09e888273326894"
             },
             "require": {
                 "firebase/php-jwt": "^5.0",
@@ -80,7 +80,7 @@
                 }
             ],
             "description": "jwt-manager for freedomsex projects",
-            "time": "2019-06-25T15:09:38+00:00"
+            "time": "2019-06-25T21:42:25+00:00"
         }
     ],
     "packages-dev": [
@@ -1788,6 +1788,5 @@
     "platform": {
         "php": "^7.1.3"
     },
-    "platform-dev": [],
-    "version": "0.0.7"
+    "platform-dev": []
 }
