@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://git///compare/v0.0.7...v0.0.8) (2019-06-25)
+
+
+### Bug Fixes
+
+* update jwt manager ([3693457](https://git///commit/3693457))
+
+
+
 ### [0.0.7](https://git///compare/v0.0.6...v0.0.7) (2019-06-25)
 
 
