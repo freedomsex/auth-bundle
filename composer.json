@@ -2,7 +2,7 @@
     "name": "freedomsex/auth-bundle",
     "type": "project",
     "license": "proprietary",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "repositories": [
         {
             "type": "vcs",
@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^7.1.3",
-        "freedomsex/jwt-manager": "dev-master"
+        "freedomsex/jwt-manager": "^0.0.2"
     },
     "autoload": {
         "psr-4": {
