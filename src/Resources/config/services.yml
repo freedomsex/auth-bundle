@@ -3,6 +3,7 @@ services:
   FreedomSex\Services\JWTManager:
     public: true
     arguments:
-      - $secret_key: '%kernel.project_dir%/config/keys/private.key'
-      - $public_key: '%kernel.project_dir%/config/keys/public.key'
-      - $token_ttl: 3600
+      $secret_key: '%kernel.project_dir%/config/keys/private.key'
+      $public_key: '%kernel.project_dir%/config/keys/public.key'
+      $pass_phrase: null
+      $token_ttl: 3600
