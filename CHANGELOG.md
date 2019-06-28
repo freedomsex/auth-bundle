@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.0](https://git///compare/v0.0.12...v0.1.0) (2019-06-28)
+
+
+### Features
+
+* authenticator ([18641ef](https://git///commit/18641ef))
+
+
+
 ### [0.0.12](https://git///compare/v0.0.11...v0.0.12) (2019-06-27)
 
 
