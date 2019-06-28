@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://git///compare/v0.1.1...v0.2.0) (2019-06-28)
+
+
+### Features
+
+* voters ([300e6b0](https://git///commit/300e6b0))
+
+
+
 ### [0.1.1](https://git///compare/v0.1.0...v0.1.1) (2019-06-28)
 
 
