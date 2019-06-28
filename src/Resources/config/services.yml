@@ -7,3 +7,9 @@ services:
       $public_key: '%kernel.project_dir%/config/keys/public.key'
       $pass_phrase: null
       $token_ttl: 3600
+
+  FreedomSex\AuthBundle\Security\JWTAuthenticator:
+    public: true
+    arguments:
+      - '@FreedomSex\Services\JWTManager'
+      - '@FreedomSex\AuthBundle\Security\JWTExtractor'
