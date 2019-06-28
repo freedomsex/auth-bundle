@@ -1,4 +1,7 @@
 services:
+  _defaults:
+    autowire: true      # Automatically injects dependencies in your services.
+    autoconfigure: true
 
   FreedomSex\Services\JWTManager:
     public: true
@@ -8,12 +11,20 @@ services:
       $pass_phrase: null
       $token_ttl: 3600
 
+  FreedomSex\AuthBundle\Security\JWTExtractor: ~
 
-  FreedomSex\AuthBundle\Security\JWTExtractor:
-    public: true
+  FreedomSex\AuthBundle\Security\JWTAuthenticator: ~
 
-  FreedomSex\AuthBundle\Security\JWTAuthenticator:
-    public: true
-    arguments:
-      - '@FreedomSex\Services\JWTManager'
-      - '@FreedomSex\AuthBundle\Security\JWTExtractor'
+  FreedomSex\AuthBundle\Security\Voters\RequestUidVoter: ~
+  
+  FreedomSex\AuthBundle\Security\Voters\UserUidVoter: ~
+
+#  FreedomSex\AuthBundle\Security\JWTExtractor:
+#    public: true
+#
+#  FreedomSex\AuthBundle\Security\JWTAuthenticator:
+#    public: true
+#    arguments:
+#      - '@FreedomSex\Services\JWTManager'
+#      - '@FreedomSex\AuthBundle\Security\JWTExtractor'
+
