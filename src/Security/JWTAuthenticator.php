@@ -3,7 +3,6 @@
 
 namespace FreedomSex\AuthBundle\Security;
 
-use App\Security\Users\JWTUser;
 use FreedomSex\Services\JWTManager;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

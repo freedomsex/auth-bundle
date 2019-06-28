@@ -1,7 +1,7 @@
 <?php
 
 
-namespace FreedomSex\AuthBundle\Security\Users;
+namespace FreedomSex\AuthBundle\Security;
 
 
 use Symfony\Component\Security\Core\User\UserInterface;

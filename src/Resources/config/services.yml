@@ -8,6 +8,10 @@ services:
       $pass_phrase: null
       $token_ttl: 3600
 
+
+  FreedomSex\AuthBundle\Security\JWTExtractor:
+    public: true
+
   FreedomSex\AuthBundle\Security\JWTAuthenticator:
     public: true
     arguments:
