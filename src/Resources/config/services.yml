@@ -16,7 +16,7 @@ services:
   FreedomSex\AuthBundle\Security\JWTAuthenticator: ~
 
   FreedomSex\AuthBundle\Security\Voters\RequestUidVoter: ~
-  
+
   FreedomSex\AuthBundle\Security\Voters\UserUidVoter: ~
 
 #  FreedomSex\AuthBundle\Security\JWTExtractor:
