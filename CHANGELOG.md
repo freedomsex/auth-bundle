@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.2](https://git///compare/v0.2.1...v0.2.2) (2019-06-30)
+
+
+### Bug Fixes
+
+* 403 resp ([0654fc2](https://git///commit/0654fc2))
+
+
+
 ### [0.2.1](https://git///compare/v0.2.0...v0.2.1) (2019-06-29)
 
 
