@@ -4,6 +4,7 @@
 namespace FreedomSex\AuthBundle\Security;
 
 use FreedomSex\Services\JWTManager;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
@@ -63,12 +64,12 @@ class JWTAuthenticator extends AbstractGuardAuthenticator
 
     public function onAuthenticationFailure(Request $request, AuthenticationException $exception)
     {
-        return null;
+        return new Response('', Response::HTTP_FORBIDDEN);
     }
 
     public function start(Request $request, AuthenticationException $authException = null)
     {
-        return new Response('', 401);
+        return new Response('', Response::HTTP_UNAUTHORIZED);
     }
 
     public function supportsRememberMe()
