@@ -1789,5 +1789,5 @@
         "php": "^7.1.3"
     },
     "platform-dev": [],
-    "version": "0.3.0"
+    "version": "0.3.1"
 }
