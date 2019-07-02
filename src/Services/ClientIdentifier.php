@@ -23,6 +23,11 @@ class ClientIdentifier
         return $this->request()->getClientIp();
     }
 
+    public function ipin()
+    {
+        return sprintf("%u", ip2long($this->ip())); // Числовой
+    }
+
     public function agent()
     {
         return $this->request()->headers->get('User-Agent');
