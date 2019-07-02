@@ -19,6 +19,9 @@ services:
 
   FreedomSex\AuthBundle\Security\Voters\UserUidVoter: ~
 
+
+  FreedomSex\AuthBundle\Services\ClientIdentifier: ~
+
 #  FreedomSex\AuthBundle\Security\JWTExtractor:
 #    public: true
 #
