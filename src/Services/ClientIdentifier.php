@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Services;
+namespace FreedomSex\AuthBundle\Services;
 
 
 use Symfony\Component\HttpFoundation\RequestStack;
