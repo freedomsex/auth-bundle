@@ -9,7 +9,8 @@ services:
       $secret_key: '%kernel.project_dir%/config/keys/private.key'
       $public_key: '%kernel.project_dir%/config/keys/public.key'
       $pass_phrase: null
-      $token_ttl: 3600
+      $token_ttl: 1800
+
 
   FreedomSex\AuthBundle\Security\JWTExtractor: ~
 
