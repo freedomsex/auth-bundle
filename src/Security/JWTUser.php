@@ -10,7 +10,7 @@ class JWTUser implements UserInterface
 {
     private $userId;
     private $username;
-    private $roles;
+    private $roles = [];
 
     public function __construct($uid, array $data)
     {
