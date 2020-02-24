@@ -2,12 +2,9 @@
     "name": "freedomsex/auth-bundle",
     "type": "project",
     "license": "proprietary",
-    "version": "0.3.4",
+    "version": "0.3.5",
     "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@195.154.54.5:freed/libs/jwt-manager"
-        }
+        { "type": "vcs", "url": "git@195.154.54.5:freed/libs/jwt-manager" }
     ],
     "require": {
         "php": "^7.1.3",
