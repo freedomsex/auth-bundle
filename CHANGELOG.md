@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.6](https://195.154.54.5///compare/v0.3.5...v0.3.6) (2020-04-03)
+
+
+### Features
+
+* remove identifier service ([ef76c54](https://195.154.54.5///commit/ef76c54f91c4d29dc19a0dd435dd0c7fb3ccd121))
+
 ### [0.3.4](https://git///compare/v0.3.3...v0.3.4) (2019-09-26)
 
 ### [0.3.3](https://git///compare/v0.3.2...v0.3.3) (2019-07-04)
