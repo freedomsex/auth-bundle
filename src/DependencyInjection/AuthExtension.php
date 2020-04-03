@@ -27,6 +27,6 @@ class AuthExtension extends Extension
         $config = $this->processConfiguration($configuration, $configs);
 
         $definition = $container->getDefinition('auth.jwt_manager');
-        $definition->replaceArgument(3, $config['token_ttl']);
+        $definition->replaceArgument('$token_ttl', $config['token_ttl']);
     }
 }

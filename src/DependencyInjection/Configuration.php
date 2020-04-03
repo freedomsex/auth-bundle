@@ -21,7 +21,8 @@ class Configuration implements ConfigurationInterface
         $rootNode = $treeBuilder->getRootNode();
 
         $rootNode->children()
-            ->integerNode('token_ttl')->defaultValue(900)->end();
+            ->integerNode('token_ttl')->defaultValue(900)->end()
+            ->end();
 
         return $treeBuilder;
     }
