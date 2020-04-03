@@ -26,7 +26,7 @@ class AuthExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-        $definition = $container->getDefinition('FreedomSex\Services\JWTManager');
+        $definition = $container->getDefinition('auth.jwt_manager');
         $definition->replaceArgument(3, $config['token_ttl']);
     }
 }

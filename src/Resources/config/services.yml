@@ -3,13 +3,16 @@ services:
     autowire: true      # Automatically injects dependencies in your services.
     autoconfigure: true
 
-  FreedomSex\Services\JWTManager:
+  auth.jwt_manager:
+    class: FreedomSex\Services\JWTManager
     public: true
     arguments:
       $secret_key: '%kernel.project_dir%/config/keys/private.key'
       $public_key: '%kernel.project_dir%/config/keys/public.key'
       $pass_phrase: null
       $token_ttl: 300
+
+  FreedomSex\Services\JWTManager: '@auth.jwt_manager'
 
 
   FreedomSex\AuthBundle\Security\JWTExtractor: ~
