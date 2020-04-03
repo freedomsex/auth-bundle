@@ -20,8 +20,9 @@ services:
 
   FreedomSex\AuthBundle\Security\Voters\UserUidVoter: ~
 
+  FreedomSex\AuthBundle\Services\PasswordManager: ~
 
-  FreedomSex\AuthBundle\Services\ClientIdentifier: ~
+  FreedomSex\Services\ClientIdentifier: ~
 
 #  FreedomSex\AuthBundle\Security\JWTExtractor:
 #    public: true
