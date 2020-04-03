@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.2](https://195.154.54.5///compare/v0.4.1...v0.4.2) (2020-04-03)
+
+
+### Bug Fixes
+
+* definition ttl ([8fc7bd8](https://195.154.54.5///commit/8fc7bd844c7f915cd05ca89df0360815a71d527d))
+
 ### [0.4.1](https://195.154.54.5///compare/v0.4.0...v0.4.1) (2020-04-03)
 
 
