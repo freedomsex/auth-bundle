@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://195.154.54.5///compare/v0.3.6...v0.4.0) (2020-04-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* config ttl
+
+### Features
+
+* release ([13b9601](https://195.154.54.5///commit/13b9601be45e3ada3d23577b8eb778574d3fd735))
+
 ### [0.3.6](https://195.154.54.5///compare/v0.3.5...v0.3.6) (2020-04-03)
 
 
