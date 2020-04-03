@@ -17,7 +17,7 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder('freedomsex_auth');
+        $treeBuilder = new TreeBuilder('auth');
         $rootNode = $treeBuilder->getRootNode();
 
         $rootNode->children()
