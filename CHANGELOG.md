@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.1](https://195.154.54.5///compare/v0.4.0...v0.4.1) (2020-04-03)
+
+
+### Bug Fixes
+
+* root-name ([496927f](https://195.154.54.5///commit/496927f3a17f5850ca93822173dd0dd133f73d02))
+
 ## [0.4.0](https://195.154.54.5///compare/v0.3.6...v0.4.0) (2020-04-03)
 
 
