@@ -2,7 +2,6 @@
     "name": "freedomsex/auth-bundle",
     "type": "project",
     "license": "proprietary",
-    "version": "0.4.2",
     "repositories": [
         {
             "type": "vcs",
