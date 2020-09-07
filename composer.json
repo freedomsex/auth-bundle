@@ -1,21 +1,14 @@
 {
     "name": "freedomsex/auth-bundle",
-    "type": "project",
+    "type": "symfony-bundle",
     "license": "proprietary",
     "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@195.154.54.5:freed/libs/jwt-manager"
-        },
-        {
-            "type": "vcs",
-            "url": "git@195.154.54.5:freed/libs/client-identifier"
-        }
+        { "type": "vcs", "url": "git@195.154.54.5:freed/libs/jwt-manager" }
     ],
     "require": {
         "php": "^7.2.3",
         "freedomsex/jwt-manager": "~0.1",
-        "freedomsex/client-identifier": "^1.0"
+        "freedomsex/client-identifier": "~1.1"
     },
     "autoload": {
         "psr-4": {

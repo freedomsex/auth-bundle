@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f363f6a58e87ecc853c7411eadfcd27d",
+    "content-hash": "23738a9828793738f1b36e3c712978cb",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -114,14 +114,22 @@
         },
         {
             "name": "freedomsex/client-identifier",
-            "version": "1.0.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
-                "url": "git@195.154.54.5:freed/libs/client-identifier",
-                "reference": "6ed4978f2f66e0b1c2367147998069e420a4f754"
+                "url": "https://github.com/freedomsex/client-identifier.git",
+                "reference": "dbf2ecb6ad40106ea52f902866a3b4dc8e74b014"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/freedomsex/client-identifier/zipball/dbf2ecb6ad40106ea52f902866a3b4dc8e74b014",
+                "reference": "dbf2ecb6ad40106ea52f902866a3b4dc8e74b014",
+                "shasum": ""
             },
             "require": {
-                "php": "^7.2",
+                "php": "^7.2"
+            },
+            "require-dev": {
                 "phpunit/phpunit": "^8.5"
             },
             "type": "library",
@@ -130,6 +138,7 @@
                     "FreedomSex\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -139,7 +148,7 @@
                     "email": "support@freedomsex.net"
                 }
             ],
-            "time": "2019-12-11T08:26:06+00:00"
+            "time": "2020-09-06T23:09:06+00:00"
         },
         {
             "name": "freedomsex/jwt-manager",
@@ -785,6 +794,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2019-09-17T06:23:10+00:00"
         },
         {
@@ -867,6 +877,16 @@
                 "phpunit",
                 "testing",
                 "xunit"
+            ],
+            "funding": [
+                {
+                    "url": "https://phpunit.de/donate.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
             ],
             "time": "2020-03-31T08:52:04+00:00"
         },
@@ -1541,6 +1561,20 @@
                 "polyfill",
                 "portable"
             ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-02-27T09:26:54+00:00"
         },
         {
@@ -1639,8 +1673,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.1.3"
+        "php": "^7.2.3"
     },
     "platform-dev": [],
-    "version": "0.4.2"
+    "plugin-api-version": "1.1.0"
 }
