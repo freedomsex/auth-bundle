@@ -2,9 +2,7 @@
     "name": "freedomsex/auth-bundle",
     "type": "symfony-bundle",
     "license": "proprietary",
-    "repositories": [
-        { "type": "vcs", "url": "git@195.154.54.5:freed/libs/jwt-manager" }
-    ],
+    "repositories": [],
     "require": {
         "php": "^7.2.3",
         "freedomsex/jwt-manager": "~0.1",
