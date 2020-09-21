@@ -46,10 +46,11 @@ class JWTAuthenticator extends AbstractGuardAuthenticator
     public function getUser($credentials, UserProviderInterface $userProvider)
     {
         $uid = $credentials['payload']['uid'];
+        $uuid = $credentials['payload']['uuid'];
         if (!$uid) {
             return null;
         }
-        return new JWTUser($uid, $credentials['payload']);
+        return new JWTUser($uid, $uuid, $credentials['payload']);
     }
 
     public function checkCredentials($credentials, UserInterface $user)

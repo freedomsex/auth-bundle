@@ -12,9 +12,10 @@ class JWTUser implements UserInterface
     private $username;
     private $roles = [];
 
-    public function __construct($uid, array $data)
+    public function __construct($uid, $uuid, array $data)
     {
         $this->userId = $uid;
+        $this->uuid = $uuid;
         $this->username = $uid; // $data['username'];
         $this->roles = $data['roles'] ?? [];
     }
@@ -22,6 +23,11 @@ class JWTUser implements UserInterface
     public function getId()
     {
         return $this->userId;
+    }
+
+    public function getUuid()
+    {
+        return $this->uuid;
     }
 
     /**

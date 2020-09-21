@@ -22,7 +22,8 @@ class Configuration implements ConfigurationInterface
 
         $rootNode->children()
             ->integerNode('token_ttl')->defaultValue(900)->end()
-            ->end();
+            ->scalarNode('token_subject')->defaultValue('authorize')->end()
+        ->end();
 
         return $treeBuilder;
     }

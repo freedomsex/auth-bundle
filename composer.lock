@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9858ceca8bed6e3cfde1269923e2fae7",
+    "content-hash": "93015f5a5323d820f3713a7c75fe5123",
     "packages": [
         {
             "name": "firebase/php-jwt",
@@ -96,16 +96,16 @@
         },
         {
             "name": "freedomsex/jwt-manager",
-            "version": "0.1.6",
+            "version": "v0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/freedomsex/jwt-manager.git",
-                "reference": "1c0e41499f5ce0deb79f3398e0124ba202e25a1c"
+                "reference": "7d3ce8a34a00e8352fbf2cb130587d48976b3643"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/freedomsex/jwt-manager/zipball/1c0e41499f5ce0deb79f3398e0124ba202e25a1c",
-                "reference": "1c0e41499f5ce0deb79f3398e0124ba202e25a1c",
+                "url": "https://api.github.com/repos/freedomsex/jwt-manager/zipball/7d3ce8a34a00e8352fbf2cb130587d48976b3643",
+                "reference": "7d3ce8a34a00e8352fbf2cb130587d48976b3643",
                 "shasum": ""
             },
             "require": {
@@ -118,6 +118,7 @@
                     "FreedomSex\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPLv3.0"
             ],
@@ -127,8 +128,44 @@
                     "email": "support@freedomsex.net"
                 }
             ],
-            "description": "jwt-manager for freedomsex projects",
-            "time": "2019-09-18T15:30:54+00:00"
+            "description": "jwt-manager for FreedomSex project",
+            "time": "2020-09-21T15:29:22+00:00"
+        },
+        {
+            "name": "freedomsex/password-manager",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/freedomsex/password-manager.git",
+                "reference": "d2177f42a01011248563f2a825ef0da2f358260e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/freedomsex/password-manager/zipball/d2177f42a01011248563f2a825ef0da2f358260e",
+                "reference": "d2177f42a01011248563f2a825ef0da2f358260e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FreedomSex\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv3.0"
+            ],
+            "authors": [
+                {
+                    "name": "tebaly",
+                    "email": "support@freedomsex.net"
+                }
+            ],
+            "description": "simple password manager",
+            "time": "2020-04-14T09:42:36+00:00"
         }
     ],
     "packages-dev": [],

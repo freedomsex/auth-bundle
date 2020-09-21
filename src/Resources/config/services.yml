@@ -23,7 +23,7 @@ services:
 
   FreedomSex\AuthBundle\Security\Voters\UserUidVoter: ~
 
-  FreedomSex\AuthBundle\Services\PasswordManager: ~
+  FreedomSex\Services\PasswordManager: ~
 
   FreedomSex\Services\ClientIdentifier: ~
 
