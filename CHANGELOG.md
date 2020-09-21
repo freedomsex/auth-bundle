@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.7](https://github.com/freedomsex/auth-bundle/compare/v0.4.6...v0.4.7) (2020-09-21)
+
+
+### Features
+
+* UUID read + Subject avaible ([3712c41](https://github.com/freedomsex/auth-bundle/commit/3712c416d22071460d3ae61f1f827be727bf4116))
+
 ### [0.4.6](https://github.com/freedomsex/auth-bundle/compare/v0.4.5...v0.4.6) (2020-09-07)
 
 
