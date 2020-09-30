@@ -8,13 +8,13 @@ use Symfony\Component\Security\Core\User\UserInterface;
 
 class JWTUser implements UserInterface
 {
-    private $userId;
+    private $uid;
     private $username;
     private $roles = [];
 
     public function __construct($uid, $uuid, array $data)
     {
-        $this->userId = $uid;
+        $this->uid = $uid;
         $this->uuid = $uuid;
         $this->username = $uid; // $data['username'];
         $this->roles = $data['roles'] ?? [];
@@ -22,7 +22,7 @@ class JWTUser implements UserInterface
 
     public function getId()
     {
-        return $this->userId;
+        return $this->uid;
     }
 
     public function getUuid()
