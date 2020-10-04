@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.10](https://github.com/freedomsex/auth-bundle/compare/v0.4.9...v0.4.10) (2020-10-04)
+
+
+### Bug Fixes
+
+* pub + rem ([e11f4e7](https://github.com/freedomsex/auth-bundle/commit/e11f4e7c18e3a302de64a4ae9184a6ffe8e5cec0))
+
 ### [0.4.9](https://github.com/freedomsex/auth-bundle/compare/v0.4.8...v0.4.9) (2020-09-30)
 
 
