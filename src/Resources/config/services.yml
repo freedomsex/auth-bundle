@@ -15,6 +15,8 @@ services:
   FreedomSex\Services\JWTManager: '@auth.jwt_manager'
 
 
+  FreedomSex\Services\ClientIdentifier: ~
+
   FreedomSex\AuthBundle\Security\JWTExtractor: ~
 
   FreedomSex\AuthBundle\Security\JWTAuthenticator: ~
@@ -22,17 +24,3 @@ services:
   FreedomSex\AuthBundle\Security\Voters\RequestUidVoter: ~
 
   FreedomSex\AuthBundle\Security\Voters\UserUidVoter: ~
-
-  FreedomSex\Services\PasswordManager: ~
-
-  FreedomSex\Services\ClientIdentifier: ~
-
-#  FreedomSex\AuthBundle\Security\JWTExtractor:
-#    public: true
-#
-#  FreedomSex\AuthBundle\Security\JWTAuthenticator:
-#    public: true
-#    arguments:
-#      - '@FreedomSex\Services\JWTManager'
-#      - '@FreedomSex\AuthBundle\Security\JWTExtractor'
-

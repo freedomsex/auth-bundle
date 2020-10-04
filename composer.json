@@ -1,22 +1,26 @@
 {
-    "name": "freedomsex/auth-bundle",
-    "type": "symfony-bundle",
-    "license": "proprietary",
-    "repositories": [],
-    "require": {
-        "php": "^7.2.3",
-        "freedomsex/jwt-manager": "^0.2.0",
-        "freedomsex/client-identifier": "^1.0",
-        "freedomsex/password-manager": "^1.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "FreedomSex\\AuthBundle\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "FreedomSex\\AuthBundle\\": "tests/"
-        }
+  "name": "freedomsex/auth-bundle",
+  "type": "symfony-bundle",
+  "license": "GPL-3.0-or-later",
+  "description": "JWT Key authenticator for FreedomSex project api-servers",
+  "authors": [
+    {
+      "name": "tebaly",
+      "email": "support@freedomsex.net"
     }
+  ],
+  "require": {
+    "php": "^7.2",
+    "freedomsex/jwt-manager": "^0.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "FreedomSex\\AuthBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "FreedomSex\\AuthBundle\\Tests\\": "tests/"
+    }
+  }
 }
