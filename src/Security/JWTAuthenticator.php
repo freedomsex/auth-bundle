@@ -4,6 +4,7 @@
 namespace FreedomSex\AuthBundle\Security;
 
 use FreedomSex\Services\JWTManager;
+use Psr\Log\LoggerInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -18,28 +19,41 @@ use Symfony\Component\Security\Guard\AbstractGuardAuthenticator;
 class JWTAuthenticator extends AbstractGuardAuthenticator
 {
     private $jwtManager;
+    private $token;
+    private $payload;
 
-    public function __construct(JWTManager $jwtManager, JWTExtractor $extractor)
-    {
+    public function __construct(
+        JWTManager $jwtManager,
+        JWTExtractor $extractor,
+        LoggerInterface $logger
+    ) {
         $this->jwtManager = $jwtManager;
         $this->extractor = $extractor;
+        $this->logger = $logger;
     }
 
     public function supports(Request $request)
     {
-        return $this->extractor->extract($request);
+        $jwt = $this->extractor->extract($request);
+        $key = $request->get('api_key');
+
+        $this->token = $jwt ?: $key;
+        try {
+            $this->payload = (array) $this->jwtManager->load($this->token);
+        } catch (\Exception $e) {
+            $this->logger->debug(sprintf('JWT load error: %s', $e->getMessage()));
+            return false;
+        }
+        return true;
     }
 
     public function getCredentials(Request $request)
     {
-        $token = $this->extractor->extract($request);
-        try {
-            $payload = (array) $this->jwtManager->load($token);
-        } catch (\Exception $e) {
-            throw new BadRequestHttpException();
+        if (!$this->token or !$this->payload) {
+            return null;
         }
         return [
-            'payload' => $payload,
+            'payload' => $this->payload,
         ];
     }
 
