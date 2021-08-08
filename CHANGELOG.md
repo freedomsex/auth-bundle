@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.11](https://github.com/freedomsex/auth-bundle/compare/v0.4.10...v0.4.11) (2021-08-08)
+
+
+### Bug Fixes
+
+* supports load token ([6e5313b](https://github.com/freedomsex/auth-bundle/commit/6e5313b3ef1e6f77f60d8f9009d1ddb7a7bc4b70))
+
 ### [0.4.10](https://github.com/freedomsex/auth-bundle/compare/v0.4.9...v0.4.10) (2020-10-04)
 
 
